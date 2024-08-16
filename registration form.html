@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form action="#" method="post">
+    <label for="first_name">First Name:</label><br>
+    <input type="text" id="first_name" name="first_name" required><br><br>
+    
+    <label for="middle_name">Middle Name:</label><br>
+    <input type="text" id="middle_name" name="middle_name"><br><br>
+    
+    <label for="last_name">Last Name:</label><br>
+    <input type="text" id="last_name" name="last_name" required><br><br>
+    
+    <label for="course">Course:</label><br>
+    <select id="course" name="course">
+      <option value="select">Select</option>
+      <option value="computer_science">Computer Science</option>
+      <option value="engineering">Engineering</option>
+      <option value="business">Business</option>
+      <option value="biology">Biology</option>
+    </select><br><br>
+    
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+    
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="30"></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
